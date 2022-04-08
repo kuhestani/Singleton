@@ -1,0 +1,24 @@
+{
+	"name": "kuhestani/singleton",
+	"type": "library",
+	"description": "Implement Singleton Design Pattern in PHP",
+	"keywords": ["design pattern", "singleton"],
+	"homepage": "https://github.com/kuhestani/Singleton",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Sina Kuhestani",
+			"email": "sina@webshan.online"
+		}
+	],
+	"require": {
+		"php": ">=8.1"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^9"
+	},
+	"autoload": {
+		"Kuhestani\\Singleton\\": "src/"
+	},
+	"minimum-stability": "stable"
+}
