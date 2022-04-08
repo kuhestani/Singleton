@@ -10,5 +10,5 @@ use Kuhestani\Singleton\SingletonInterface;
 abstract class SingletonTemplate implements SingletonInterface
 {
 	use SingletonTrait;
-	abstract protected function create(): void;
+	abstract protected static function create(): void;
 }

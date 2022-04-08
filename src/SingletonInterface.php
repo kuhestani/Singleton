@@ -6,6 +6,6 @@ namespace Kuhestani\Singleton;
 
 interface SingletonInterface
 {
-	public static function getInstance(): self;
+	public static function getInstance(): object;
 	public function __wakeup();
 }

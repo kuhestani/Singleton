@@ -11,7 +11,7 @@ use Kuhestani\Singleton\SingletonInterface;
 final class SingletonExample extends SingletonTemplate implements SingletonInterface
 {
 	use SingletonTrait;
-	protected function create(): void
+	protected static function create(): void
 	{
 		static::$instance = new static();
 	}
