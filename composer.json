@@ -18,7 +18,9 @@
 		"phpunit/phpunit": "^9"
 	},
 	"autoload": {
-		"Kuhestani\\Singleton\\": "src/"
+		"psr-4": {
+			"Kuhestani\\Singleton\\": "src/"
+		}
 	},
 	"minimum-stability": "stable"
 }
